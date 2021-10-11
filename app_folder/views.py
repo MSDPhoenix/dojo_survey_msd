@@ -1,5 +1,4 @@
-from django.http.response import HttpResponse
-from django.shortcuts import render,redirect,HttpResponse
+from django.shortcuts import render
 
 def index1(request):
     return render(request,'form_page.html')
