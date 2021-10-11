@@ -5,11 +5,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
     color:darkslategray;
-
 }
 h4,  .primary {
-    /* color:darkslategray; */
-    /* margin-bottom: 20px; */
     display: inline-block;
     box-shadow: 3px 3px 3px black;
     border:black 1px solid;
@@ -30,7 +27,6 @@ form {
     margin: 10px auto;
     padding:20px;
     border:darkgoldenrod 5px outset;
-    /* text-align: right; */
 }
 div {
     display:flex;
@@ -46,12 +42,9 @@ textarea {
 }
 button {
     padding: 5px 10px;
-    /* color:darkolivegreen; */
     border:black 1px solid;
     border-radius: 5px;
     box-shadow: 3px 3px 3px black;
-    /* float:right;  */
-    /* Can I use float? */
 }
 #button_div {
     justify-content: flex-end;
@@ -67,11 +60,8 @@ button {
 #checkbox {
     padding:0px 0px 10px 0px;
     display:block;
-    /* background-color: pink; */
 }
 #checkbox input, #checkbox label, #checkbox span {
     margin: 0px 0px 10px 20px;
-    /* background-color: rgb(88, 85, 87); */
     display:inline-block;
 }
-

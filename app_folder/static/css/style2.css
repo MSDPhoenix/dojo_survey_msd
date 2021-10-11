@@ -5,14 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 h4,  p, label, input {
     color:darkslategray;
     margin-bottom: 10px;
-    /* display: inline-block; */
-    /* box-shadow: 3px 3px 3px black; */
-    /* border:black 1px solid; */
-
 }
 h4 {
     margin-bottom: 10px;
@@ -25,13 +20,11 @@ h4 {
     margin: 10px auto;
     padding:20px;
     border:darkgoldenrod 5px outset;
-    /* text-align: right; */
 }
 #box {
     display:flex;
     align-items: top;
     justify-content: space-between;
-    /* padding-bottom: 20px; */
 }
 #left {
     flex:5;
@@ -53,7 +46,6 @@ h4 {
     box-shadow: 3px 3px 3px black;
     background-color:lightgrey;
     text-decoration: none;
-
 }
 #button_div {
     display:flex;
